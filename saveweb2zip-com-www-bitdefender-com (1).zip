@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Antivirus Hub | Online Security</title>
+<meta name="description" content="Explore antivirus software, device security, malware protection and online safety solutions.">
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;color:#172033;line-height:1.6}
+a{text-decoration:none}
+header{padding:18px 7%;display:flex;justify-content:space-between;align-items:center;background:#fff}
+.logo{font-size:24px;font-weight:bold;color:#5046e5}
+nav a{margin-left:22px;color:#172033;font-weight:600;font-size:14px}
+.btn{display:inline-block;padding:12px 22px;background:#5046e5;color:#fff;border-radius:7px;font-weight:bold}
+.hero{background:linear-gradient(120deg,#eff0ff,#f5fbff);padding:85px 7%;display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.hero h1{font-size:52px;line-height:1.15;margin:18px 0}
+.hero h1 span{color:#5046e5}
+.hero p{color:#667085;margin-bottom:25px}
+.shield{font-size:120px;text-align:center;background:#fff;border-radius:25px;padding:45px;box-shadow:0 15px 45px #30308015}
+section{padding:70px 7%}
+.heading{text-align:center;max-width:650px;margin:0 auto 38px}
+.heading h2{font-size:34px;margin-bottom:10px}
+.heading p,.card p{color:#667085}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.card{padding:27px;border:1px solid #e7e9f2;border-radius:13px;background:white}
+.card .icon{font-size:35px;margin-bottom:12px}
+.card h3{margin-bottom:10px}
+.light{background:#f7f8fc}
+.price{font-size:30px;font-weight:bold;margin:12px 0}
+.card ul{padding-left:20px;margin:15px 0;color:#596174}
+.cta{text-align:center;background:#25216d;color:white;padding:65px 7%}
+.cta p{margin:12px 0 24px;color:#e1e0ff}
+.cta .btn{background:white;color:#5046e5}
+details{padding:20px;border-bottom:1px solid #e7e9f2}
+summary{cursor:pointer;font-weight:bold}
+details p{padding-top:12px;color:#667085}
+footer{background:#11172a;color:white;text-align:center;padding:30px 7%}
+footer p{font-size:13px;color:#bdc4d5;margin-top:10px}
+@media(max-width:750px){
+ header{flex-wrap:wrap;gap:12px}
+ nav{width:100%;display:flex;flex-wrap:wrap;gap:12px}
+ nav a{margin:0}
+ .hero{grid-template-columns:1fr;padding:55px 6%}
+ .hero h1{font-size:40px}
+ .shield{font-size:85px;padding:25px}
+ .grid{grid-template-columns:1fr}
+ section{padding:55px 6%}
+ .heading h2{font-size:29px}
+}
+</style>
+</head>
+<body>
+
+<header>
+<a href="#home" class="logo">?? Antivirus Hub</a>
+<nav>
+<a href="#home">Home</a>
+<a href="#features">Features</a>
+<a href="#plans">Plans</a>
+<a href="#faq">FAQ</a>
+</nav>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div>
+<p>SMARTER DIGITAL SECURITY</p>
+<h1>Protect Your <span>Digital World</span></h1>
+<p>Discover antivirus solutions and learn how to protect your devices against malware, suspicious downloads and online threats.</p>
+<a href="#features" class="btn">Explore Features ?</a>
+</div>
+<div class="shield">???</div>
+</section>
+
+<section id="features">
+<div class="heading">
+<h2>Explore Security Features</h2>
+<p>Understand the key features to look for when choosing antivirus software.</p>
+</div>
+<div class="grid">
+<div class="card"><div class="icon">??</div><h3>Malware Protection</h3><p>Learn about detecting viruses, malicious files and other common digital threats.</p></div>
+<div class="card"><div class="icon">??</div><h3>Web Protection</h3><p>Discover ways to identify phishing links and potentially unsafe websites.</p></div>
+<div class="card"><div class="icon">??</div><h3>Privacy Protection</h3><p>Explore practices that help keep personal information and accounts safer.</p></div>
+<div class="card"><div class="icon">?</div><h3>Fast Performance</h3><p>Compare system requirements and performance when choosing security software.</p></div>
+<div class="card"><div class="icon">??</div><h3>Regular Updates</h3><p>Learn why updated operating systems and security software are important.</p></div>
+<div class="card"><div class="icon">??</div><h3>Device Security</h3><p>Review compatibility with your computer, operating system and other devices.</p></div>
+</div>
+</section>
+
+<section class="light" id="plans">
+<div class="heading">
+<h2>Compare Antivirus Plans</h2>
+<p>Example plan cards. Replace sample information with accurate product details.</p>
+</div>
+<div class="grid">
+<div class="card">
+<h3>Basic</h3>
+<div class="price">Free</div>
+<p>For exploring essential security resources.</p>
+<ul><li>Online safety guidance</li><li>Security tips</li><li>Product information</li></ul>
+<a href="#faq" class="btn">Learn More</a>
+</div>
+<div class="card">
+<h3>Premium</h3>
+<div class="price">?499</div>
+<p>Illustrative price only; no purchase is available here.</p>
+<ul><li>Compare security features</li><li>Review device compatibility</li><li>Explore protection options</li></ul>
+<a href="#contact" class="btn">Enquire Now</a>
+</div>
+<div class="card">
+<h3>Family</h3>
+<div class="price">?999</div>
+<p>Example plan for comparing multi-device options.</p>
+<ul><li>Multi-device comparison</li><li>Family safety guidance</li><li>Product research</li></ul>
+<a href="#contact" class="btn">Enquire Now</a>
+</div>
+</div>
+</section>
+
+<section id="faq">
+<div class="heading"><h2>Frequently Asked Questions</h2><p>Common questions about antivirus protection.</p></div>
+<details><summary>What is antivirus software?</summary><p>Antivirus software helps detect, block and remove certain malicious software. Features vary by product.</p></details>
+<details><summary>Does this website scan my computer?</summary><p>No. This is an informational website template and does not scan devices or detect viruses.</p></details>
+<details><summary>Where can I download antivirus software?</summary><p>Use the verified official website of the antivirus provider to find genuine downloads.</p></details>
+<details><summary>Can I use this website for Google Ads?</summary><p>You can adapt this template, but add accurate business information, a privacy policy, working links and any required disclosures before advertising.</p></details>
+</section>
+
+<section class="cta" id="contact">
+<h2>Stay Informed. Stay Protected.</h2>
+<p>Explore security options and make informed decisions for your devices.</p>
+<a href="#features" class="btn">Discover More</a>
+</section>
+</main>
+
+<footer>
+<strong>?? Antivirus Hub</strong>
+<p>Informational template. No antivirus scans, downloads or purchases are provided.</p>
+<p>© <span id="year"></span> Antivirus Hub. All rights reserved.</p>
+</footer>
+
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
